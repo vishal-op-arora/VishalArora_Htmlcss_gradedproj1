@@ -1,0 +1,66 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.products{
+    background-color: white;
+    display: block;
+    align-content: center;
+    width: 80%;
+    margin: 10px;
+}
+
+.product{
+    display: block;
+    background-color: rgb(225, 246, 255);
+    border: 10px solid rgb(225, 246, 255);
+    margin: 10px;
+    box-shadow: -2px -2px 10px 5px #888888;
+}
+
+.image img{
+    height: 200px;
+    width: 300px;
+}
+.title{
+    text-align: left;
+    text-decoration-color: rgb(253, 253, 253);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.price, .offer{
+    color: darkblue ;
+    font-size: large   ;
+}
+.title, .image, .price, .offer, .cart{
+    margin: 0%;
+    padding: 0%;
+}
+
+.cart{
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(197, 236, 253);
+}
+
+a .cart, #cart {
+    color: orange;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.cart:hover{
+    background-color: rgb(159, 226, 255);
+}
+
+.product:hover{
+    box-shadow: -2px -2px 10px 5px rgb(0, 255, 76);
+    border: 15px solid rgb(225, 246, 255) ;
+}
+
