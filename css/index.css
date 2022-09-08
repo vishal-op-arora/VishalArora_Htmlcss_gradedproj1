@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     height: auto;
     border: 10px solid black;
@@ -20,8 +24,4 @@ body{
     padding-top: 15px;
     padding-bottom: 5px;
     margin: 0%;
-}
-
-html {
-    scroll-behavior: smooth;
 }

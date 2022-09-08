@@ -1,4 +1,3 @@
-
 .column input, 
 .column label,
 #lab-dropdown *
@@ -69,7 +68,6 @@ td h3{
     width: 120px;
 }
 
-
 #yesno label{
     margin-left: 10px;
 }
@@ -97,7 +95,6 @@ input[type="reset"]{
     margin-left: 42%;
     margin-right: 20px;
 }
-
 
 #chekbox label{
     margin-left: 10px;
